@@ -2,11 +2,11 @@ const express = require('express')
 const app = express()
 require('dotenv').config()
 app.get('/',(req,res)=>{
-    res.send('port 1')
+    res.send('Page 1 Testing')
 })
-app.get('/twitter',(req,res)=>{
-    res.send('port 2')
+app.get('/secondpage',(req,res)=>{
+    res.send('Page 2 Testing')
 })
 app.listen(process.env.PORT,()=>{
- console.log('listening ')
+ console.log('listening to the server')
 }) 
