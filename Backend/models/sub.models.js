@@ -5,7 +5,7 @@ const subTodoSchema = new mongoose.Schema({
         required:true,
     },
     complete:{
-        type:booleam,
+        type:Boolean,
         default:false
     },
     CreatedBy:{

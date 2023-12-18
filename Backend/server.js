@@ -1,3 +1,5 @@
+//Structure For People to wants to run a server using ExpressJS
+
 const express = require('express')
 const app = express()
 require('dotenv').config()
